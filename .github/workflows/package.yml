@@ -28,4 +28,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/sshd:${{ env.RELEASE_VERSION }}, ${{ secrets.DOCKERHUB_USERNAME }}/sshd:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/image-stocos-dev-env:${{ env.RELEASE_VERSION }}, ${{ secrets.DOCKERHUB_USERNAME }}/image-stocos-dev-env:latest
