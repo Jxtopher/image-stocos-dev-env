@@ -15,6 +15,7 @@ RUN apt-get update -y \
     cppcheck \
     doxygen \
     gcovr \
+    git \
     libboost-iostreams1.74-dev \
     libboost-log1.74-dev \
     libboost-program-options1.74-dev \
