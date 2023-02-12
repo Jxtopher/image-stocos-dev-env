@@ -22,6 +22,7 @@ RUN apt-get update -y \
     libjsoncpp-dev \
     libssl-dev \
     libwebsocketpp-dev \
+    mongodb-org-server \
     pkg-config \
     python3-numpy \
     python3-pip \
