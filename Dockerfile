@@ -1,4 +1,4 @@
-FROM gcc:12.2.0-bullseye
+FROM debian:11.6-slim
 
 ARG DEBIAN_FRONTEND=noninteractive
 
