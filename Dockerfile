@@ -47,3 +47,5 @@ RUN tar xzf /tmp/mongo-cxx-driver-r3.7.0.tar.gz -C /tmp/                   \
     && cmake --build . --target install -j $(nproc)
 
 RUN export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+
+RUN rm -rf /tmp/*
