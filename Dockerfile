@@ -18,6 +18,7 @@ RUN apt-get update -y \
     libboost-iostreams1.74-dev \
     libboost-log1.74-dev \
     libboost-program-options1.74-dev \
+    libbson-dev \
     libcppunit-dev \
     libjsoncpp-dev \
     libssl-dev \
